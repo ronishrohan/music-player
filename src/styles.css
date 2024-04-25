@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Overused Grotesk, sans";
+  src: url("/OverusedGrotesk-VF.woff2");
+}
+
+#logo{
+  font-feature-settings: "ss01" 1 ;
+}
