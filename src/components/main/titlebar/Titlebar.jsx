@@ -24,7 +24,7 @@ const Titlebar = () => {
       data-tauri-drag-region
       className="relative header w-full h-[60px] flex items-center justify-start pl-2 lg:justify-center bg-primary-100 overflow-hidden"
     >
-        {/* <div className="absolute size-48 pointer-events-none bg-accent-900 blur-3xl opacity-35 -left-10" ></div> */}
+        {/* <div className="absolute size-72 pointer-events-none bg-accent-900 blur-3xl opacity-10 -left-10" ></div> */}
         <SearchBar></SearchBar>
       <div className="flex absolute right-0 h-full">
         <Button action={"minimize"}>{"-"}</Button>

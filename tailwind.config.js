@@ -17,7 +17,8 @@ export default {
         },
         text:{
           100: "#4B4B4B",
-          200: "#5A5A5A"
+          200: "#5A5A5A",
+          300: "#909090"
         }
       },
       fontFamily: {
