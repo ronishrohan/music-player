@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="flex flex-col gap-2 relative shrink-0  w-16 lg:w-[250px]">
-        <div className=" h-fit bg-primary-600 rounded-2xl  transition-all flex flex-col p-2 gap-1">
+        <div className=" h-fit bg-primary-600 rounded-2xl flex flex-col p-2 gap-1">
           <NavLink to="/" icon={icons.home} current={pathname}>
             Home
           </NavLink>

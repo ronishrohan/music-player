@@ -9,10 +9,10 @@ import Library from "./pages/library/Library";
 
 const App = () => {
   return (
-    <main className="bg-primary-100 h-screen flex flex-col text-white font-overused">
+    <main className="bg-primary-100 h-screen flex flex-col text-white font-overused overflow-hidden">
       <Titlebar></Titlebar>
-      <section className="flex flex-col gap-2 h-full">
-        <div className="flex w-full h-full gap-2 px-2">
+      <section className="flex flex-col gap-2 h-full overflow-hidden">
+        <div className="flex w-full h-full gap-2 px-2 overflow-hidden">
           <Sidebar></Sidebar>
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
@@ -20,7 +20,7 @@ const App = () => {
             <Route path="/library" element={<Library></Library>}></Route>
           </Routes>
         </div>
-        <div className="px-2 pb-2">
+        <div className="px-2 pb-2 shrink-0">
           <Player></Player>
         </div>
       </section>

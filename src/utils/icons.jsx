@@ -1,4 +1,4 @@
-import { faArrowUp, faBolt, faBoltLightning, faCode, faDownload, faExpand, faHeadphonesSimple, faHeart, faHome, faMagnifyingGlass, faMaximize, faPaperPlane, faSplotch, faWindowMinimize, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { faArrowUp, faBolt, faBoltLightning, faCode, faDownload, faExpand, faHeadphonesSimple, faHeart, faHome, faMagnifyingGlass, faMaximize, faPaperPlane, faPlay, faSplotch, faWindowMinimize, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -12,5 +12,6 @@ export const icons = {
     search: <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>,
     home: <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>,
     library: <FontAwesomeIcon icon={faHeadphonesSimple}></FontAwesomeIcon>,
-    heart: <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
+    heart: <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>,
+    play: <FontAwesomeIcon icon={faPlay}></FontAwesomeIcon>
 }
