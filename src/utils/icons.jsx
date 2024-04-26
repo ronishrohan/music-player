@@ -1,4 +1,4 @@
-import { faArrowUp, faBolt, faBoltLightning, faCode, faDownload, faExpand, faHeadphonesSimple, faHeart, faHome, faMagnifyingGlass, faMaximize, faPaperPlane, faPlay, faSplotch, faWindowMinimize, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { faArrowUp, faBolt, faBoltLightning, faCode, faCompactDisc, faDownload, faExpand, faForward, faHeadphonesSimple, faHeart, faHome, faMagnifyingGlass, faMaximize, faPaperPlane, faPause, faPlay, faRadio, faSplotch, faVolumeHigh, faWindowMinimize, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -13,5 +13,10 @@ export const icons = {
     home: <FontAwesomeIcon icon={faHome}></FontAwesomeIcon>,
     library: <FontAwesomeIcon icon={faHeadphonesSimple}></FontAwesomeIcon>,
     heart: <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>,
-    play: <FontAwesomeIcon icon={faPlay}></FontAwesomeIcon>
+    play: <FontAwesomeIcon icon={faPlay}></FontAwesomeIcon>,
+    pause: <FontAwesomeIcon icon={faPause}></FontAwesomeIcon>,
+    next: <FontAwesomeIcon icon={faForward}></FontAwesomeIcon>,
+    queue: <FontAwesomeIcon icon={faRadio}></FontAwesomeIcon>,
+    volume_high: <FontAwesomeIcon icon={faVolumeHigh}></FontAwesomeIcon>,
+    logo: <FontAwesomeIcon icon={faCompactDisc}></FontAwesomeIcon>
 }

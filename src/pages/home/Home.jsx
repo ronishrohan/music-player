@@ -5,7 +5,7 @@ import Album from "../../components/main/library/Album";
 
 const Home = () => {
   return (
-    <div className="bg-primary-600 rounded-xl w-full flex flex-col  overflow-hidden">
+    <div className="bg-primary-600 rounded-2xl w-full flex flex-col  overflow-hidden">
       <div className="size-full flex flex-col gap-4 p-4 overflow-y-auto">
         <div className="flex h-[240px] gap-4 shrink-0">
           <Disk></Disk>
@@ -24,7 +24,7 @@ const Home = () => {
               <div className="text-xl font-medium text-text-200">
                 Tyler, The Creator
               </div>
-              <button className="transition-colors absolute bottom-0 right-0 rounded-full text-xl text-text-300 hover:border-accent-900 hover:text-black hover:bg-accent-900 size-16">
+              <button className="transition-colors absolute bottom-0 right-0 rounded-full text-xl bg-accent-900 text-black hover:border-accent-900 hover:text-accent-900 hover:bg-white size-16">
                 <div className="">{icons.heart}</div>
               </button>
             </div>

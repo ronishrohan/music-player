@@ -24,6 +24,11 @@ const Titlebar = () => {
       data-tauri-drag-region
       className="relative header w-full h-[60px] flex items-center justify-start pl-2 lg:justify-center bg-primary-100 overflow-hidden"
     >
+      <div className="h-full aspect-square flex gap-2 items-center shrink-0 justify-center mx-1 mr-2 lg:ml-4  lg:absolute lg:left-0 text-accent-900">
+        <span>{icons.logo}</span>
+        <div className="hidden lg:block font-medium">Music</div>
+      </div>
+      
         {/* <div className="absolute size-72 pointer-events-none bg-accent-900 blur-3xl opacity-10 -left-10" ></div> */}
         <SearchBar></SearchBar>
       <div className="flex absolute right-0 h-full">
